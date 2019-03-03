@@ -1,0 +1,235 @@
+/*
+* Header
+* ========================================================================== */
+.main-header {
+  background-color: $accent-background;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  border-bottom: 1px solid  $accent;
+}
+
+/*
+* Header Navigation
+* ========================================================================== */
+.nav-main {
+	text-transform: uppercase;
+	display: flex;
+	justify-content: space-around;
+	font-family: $reference-font;
+	background-color: $reference-background;
+  color: $reference;
+  vertical-align: center;
+  padding: 0 1rem;
+  width: 100%;
+  font-size: small;
+  text-decoration: none;
+  order: 0;
+  text-align: center;
+  a {
+  background-color: $reference-background;
+  }
+  }
+.blog-logo {
+    font-weight: bold;
+	font-family: $reference-font;
+  }
+
+/*
+* Aside
+* ========================================================================== */
+.sidebar {
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: $reference-background;
+  display: none;
+}
+
+.cover {
+	text-align: center;
+	position: relative;
+	font-family: $caption-font;
+	text-shadow: 2px 0 5px #333;
+  	}
+
+.cover-text {
+	color: $caption;
+	font: $caption-font;
+	text-shadow: 2px 0 5px #333;
+  position: absolute;
+  bottom: 20%;
+  width: 80%;
+  left: 10%;
+  }
+
+.sidebar,.cover {
+ height: 100vh;
+  width: auto;
+  }
+
+/*
+* Footer
+* ========================================================================== */
+.blog-footer {
+	font-family: $reference-font;
+  background-color: $reference-background;
+  color: $reference;
+  vertical-align: center;
+  z-index: 100;
+  width: 100%;
+  border-top: 1px solid  $accent;
+}
+
+/*
+* Article
+* ========================================================================== */
+main {
+  padding-top: 3em;
+}
+
+.index-page {
+  position: relative;
+  color: $reference;
+  &:after {
+    content: "***";
+    position: absolute;
+    margin-top: 1em;
+    width: 100px;
+    left: 50%;
+  }
+}
+
+article {
+  padding: 2em 1em;
+  img,
+  embed,
+  object,
+  video,
+  iframe {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+}
+.bodytext {
+	font-family: $primary-font;
+	color:  $bodyText;
+  }
+
+.post-meta {
+  padding-bottom: 5vw;
+  text-transform: uppercase;
+  color: accent;
+  font-size: 70%;
+  font-weight: bold;
+	font-family: $accent-font;
+  a, a:hover, a:focus, a:visited {
+    color: $reference;
+  }
+
+  .meta-black {
+    color: $reference;
+  }
+
+}
+
+
+/*
+* Archive
+* ========================================================================== */
+.year {
+  padding: 0;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 13px
+}
+
+.year li {
+  padding: 5px;
+  padding: 8px 10px;
+  border-bottom: 1px dotted $reference;
+}
+
+.year a {
+  text-decoration: none
+}
+
+.year a:hover {
+  text-decoration: underline
+}
+
+.date {
+  text-align: right;
+  float: right;
+  color: reference;
+  display: none;
+}
+
+
+
+/*
+* Footer
+* ========================================================================== */
+.blog-footer {
+  height: 4em;
+  margin: 5em auto 0;
+  font-size: 70%;
+  //border-top: 1px solid lightBlue;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.5em;
+  background: $accent-background;
+}
+
+
+
+/*
+* Next/Previous Posts
+* ========================================================================== */
+
+.link-to-post {
+  width: 100%;
+  display: block;
+  margin: 10px auto;
+  padding: 1em;
+  text-decoration: none;
+  outline: none;
+  text-align: center;
+  border: 1px solid Orange;
+  transition: border-color .5s ease-in 0s;
+  &:hover { border-color: $accent; }
+
+  &__prev, &__next {
+    font-size: .8em;
+    color: $reference;
+    margin: 10px 0;
+  }
+
+  &__title {
+    font-size: 1em;
+    font-weight: bold;
+    color: $accent;
+    margin-top: 10px;
+    display: block;
+  }
+}
+
+.quarter {
+  float: left;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  }
+  .qi {
+    height: 39vh;
+    width:  auto;
+    margin: 1vh;
+    }
+.clear  {
+  clear: right;
+  clear:  left;
+  }
