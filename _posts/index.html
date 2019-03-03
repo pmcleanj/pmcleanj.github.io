@@ -1,0 +1,14 @@
+---
+bg: "logrus-winter.jpg"
+layout: default
+crawlertitle: "The Logrus Home Page"
+title: "The Logrus"
+summary: "main page"
+---
+
+{% for post in site.posts limit: 5 %}
+  <article class="index-page">
+    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    <div class="bodytext">{{ post.excerpt }}</div>
+  </article>
+{% endfor %}

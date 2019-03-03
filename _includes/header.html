@@ -1,0 +1,33 @@
+<header class="main-header content-wrapper">
+
+<!--
+  <input type="checkbox" id="menu-checkbox" />
+ -->
+
+  <nav class="nav-main">
+
+    <a class="blog-logo" href="{{ site.baseurl }}/">{{ site.title }}</a>
+<!-- 
+
+    {% for my_page in site.pages %}
+      {% if my_page.active %}
+        <a href="{{ site.baseurl}}{{my_page.url}}">{{ my_page.title }}</a>
+      {% endif %}
+    {% endfor %}
+     -->
+
+	{% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}style="color: $reference-visited"{% endif %}>
+      {{ item.name }}
+    </a>
+  {% endfor %}
+</nav>
+
+
+<!--     <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a> -->
+
+<!--     <label for="menu-checkbox" class="toggle-button" data-open="☰" data-close="☰" onclick></label> -->
+  </nav>
+
+</header>
+<p fontsize=xx-large>{{ site.baseurl }}</p>

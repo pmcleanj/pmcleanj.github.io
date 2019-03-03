@@ -1,0 +1,15 @@
+---
+bg: "Pamela.jpg"
+layout: default
+crawlertitle: "Pamela's Logrus Page"
+title: "Pamela"
+---
+
+<h2>PAMELA JANE (FIONNGEAL SINE) NIC GIL EAN</h2>
+{% for post in site.Anne.posts limit: 5 %}
+  <article class="index-page">
+    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    {{ post.excerpt }}
+  </article>
+{% endfor %}
+
