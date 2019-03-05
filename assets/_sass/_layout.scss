@@ -220,14 +220,24 @@ article {
 
 .quarter {
   float: left;
-  height: 45vh;
+  width:	22vw;
+  height:	auto;
+//   height: 45vh;
+	text-align: center;
   display: flex;
   flex-direction: column;
+  margin: 5vh;
+  padding: 0; 
+  border: 0;
   }
-  .qi {
-    height: 39vh;
-    width:  auto;
-    margin: 1vh;
+.qi {
+	width:	22vw;
+	height:	auto;
+//     height: 39vh;
+//     width:  auto;
+    margin: 5vh;
+    border: 2vh;
+    border-color: $primary;
     }
 .clear  {
   clear: right;
