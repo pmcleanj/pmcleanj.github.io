@@ -1,6 +1,6 @@
 ---
 layout: post
-blogger: pamela
+denizen: pamela
 featured_image: /images/Pamela.jpg
 ---
 Petition: Sell Montana to Canada for $1 trillion

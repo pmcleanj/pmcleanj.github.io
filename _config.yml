@@ -9,6 +9,7 @@
 title: The Logrus
 owner: Pamela Mclean
 email: pamela@logrus.ca
+
 description: > # this means to ignore newlines until "baseurl:"
   The Logrus is the nexus of chaos. All reality exists as shadows resonating from the
   Logrus to the primal Pattern which is the nexus of all order.
@@ -32,11 +33,29 @@ excerpt_separator: "\n\n"
 # May change this later, but for now:
 collections:
     denizens:
+        output: true
     recipes:
     rudanGaidhealach:
     sundayStories:
     songs:
     championsScenarios:
+    
+defaults:
+  - scope:
+      path: ""
+      type: "denizens"
+    values:
+      layout: "denizens"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
 
 # Theme settings
 compress_html:

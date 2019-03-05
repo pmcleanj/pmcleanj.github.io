@@ -1,6 +1,6 @@
 ---
 layout: post
-blogger: pamela
+denizen: pamela
 featured_image: /images/Pamela.jpg
 ---
 People have on average about 120 hours per month of productivity in them. If you work two 

@@ -1,6 +1,6 @@
 ---
 layout: post
-blogger: pamela
+denizen: pamela
 featured_image: /images/Pamela.jpg
 ---
 People told me “If you aren’t liberal when you’re young you’re heartless. If you aren’t conservative when you’re old you’re brainless.”

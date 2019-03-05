@@ -1,6 +1,6 @@
 ---
 layout: post
-blogger: pamela
+denizen: pamela
 featured_image: /images/Pamela.jpg
 ---
                 Essentially, many Christian authors and publishers feel that:
