@@ -1,0 +1,5 @@
+# Site settings
+title: 'Old Woman''s Musings' #Title
+tagline: ' Engineer without an engine, Gael without a Gaidhealtachd, Grandmother without a grandchild, Storyteller without a story.' # A brief tagline for your site
+sidebar_image: /images/Pamela.jpg
+baseurl: /Pamela # the subpath of your site, e.g. /blog/

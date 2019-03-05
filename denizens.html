@@ -1,15 +1,28 @@
 ---
+bg: "denizens.jpg"
 layout: default
+title: Denizens
+crawlertitle: Denizens of the Logrus
 ---
+<!doctype html>
+<html>
 
-<h3>{{ page.name }}</h3>
+	<head>
+    	<meta charset="utf-8">
+    	<title>{{ page.title }}</title>
+	</head>
+	
+	<body>
+	
+    <h1>Denizens</h1>
 
-{{ content }}
-
-<h4>Posts</h4>
-<ul>
-  {% assign filtered_posts = site.posts | where: 'denizen', page.shortname %}
-  {% for post in filtered_posts %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+    {% for denizen in site.denizens %}
+      <div  class="quarter">
+        <a href={{denizen.url}}>  <img class="qi" src={{ site.images | relative_url }}/{{ denizen.bg }}></a>
+        <h5>{{ denizen.name }}</h5> 
+      </div>
+    {% endfor %}
+    <div class="clear"></div>
+    
+	</body>
+</html>
