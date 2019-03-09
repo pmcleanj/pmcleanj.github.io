@@ -1,7 +1,7 @@
 ---
-layout: post
 denizen: pamela
-featured_image: /images/Pamela.jpg
+bg: Pamela.jpg
+categories: resistance
 ---
 People told me “If you aren’t liberal when you’re young you’re heartless. If you aren’t conservative when you’re old you’re brainless.”
 

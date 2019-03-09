@@ -1,7 +1,7 @@
 ---
-layout: post
 denizen: pamela
-featured_image: /images/Pamela.jpg
+bg: Pamela.jpg
+categories: resistance mentalHealth
 ---
 I gave blood today, and while I was sipping my tea and soup afterward under the watchful 
 eye of CBS volunteers, I noticed a thank-you card on my table. It read:

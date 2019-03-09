@@ -1,7 +1,7 @@
 ---
-layout: post
 denizen: pamela
-featured_image: /images/Pamela.jpg
+bg: Pamela.jpg
+categories: resistance
 ---
 People have on average about 120 hours per month of productivity in them. If you work two 
 60-hour weeks in a row, your productivity for the next two weeks will be crap. Lots of 

@@ -1,7 +1,7 @@
 ---
-layout: post
 denizen: pamela
-featured_image: /images/Pamela.jpg
+bg: Pamela.jpg
+categories: millenials resistance
 ---
 Millenials now have the option of taking "Adulting Classes" -- privately, because the school system no longer offers Home Ec, Shop, Civics, Photography and so on. And boomer media is mocking millenials for having the practicality to go out and get the skills they have been deprived of. Because make no mistake: this is not about millenials being "coddled" or "snowflakes". This is about boomer priorities deliberately minimizing the next generations options.
 

@@ -19,19 +19,8 @@ body	{
 		text-decoration: none;
 		font-family: $primary-font;
 		background: $primary-background;
-		color:	$primary;
+		color:	$bodyText;
 		font-size: medium;
-		}
-
-
-// 	a	{
-// 		text-align:	center;
-// 		font-family: $primary-font;
-// 		background: $primary-background;
-// 		color:	$reference;
-// 		}
-	a:hover	{
-		color:	$reference-hover;
 		}
 
 	h1 {
@@ -59,12 +48,15 @@ body	{
  		font-family: $accent-font;
 		background: $primary-background;
 		color:	$accent;
+		margin: 2vh 0vh 1vh 0vh;
 		}
 	h4 {
 		text-align: center;
 		font-size: x-large;
  		font-family: $accent-font;
 		text-decoration: none;
+		color:	$accent;
+		margin: 2vh 0vh 1vh 0vh;
 		}
 	h5 {
 		text-align: center;
@@ -72,6 +64,7 @@ body	{
  		font-family: $accent-font;
 		background: $primary-background;
 		color:	$accent;
+		margin: 2vh 0vh 1vh 0vh;
 		}
 	h6 {
 		text-align: center;
@@ -102,29 +95,23 @@ body	{
 		color:	$accent;
 		}
 
+	a	{
+		color:	$reference;
+		}
+	a:hover, a:focus	{
+		color:	$reference-hover;
+		}
+	a:visited	{
+		color:	$reference-visited;
+		}
+
 
 .heading {
   font-size: xx-large;
   text-transform: uppercase;
   font-weight: bold;
  		font-family: $caption-font;
-  margin: 1vh 0;
-  a:link {
- 		font-family: $reference-font;
-		background:  $reference-background;
-		color:	  $reference;
     }
-  a:hover, a:focus {
- 		font-family: $reference-font;
-		background:  $reference-background;
-		color:	    $reference-hover;
-    }
-  a:visited {
- 		font-family: $reference-font;
-		background:   $reference-background;
-		color:	      $reference-visited;
-    }
-  }
 
 article p {
   margin-bottom: 15px;

@@ -1,7 +1,7 @@
 ---
-layout: post
 denizen: pamela
-featured_image: /images/Pamela.jpg
+bg: Pamela.jpg
+categories: resistance
 ---
 A meme came over my dashboard today proclaiming that "The world needs more individuals who 
 are willing to work their hardest." I’m not actually certain that is true.

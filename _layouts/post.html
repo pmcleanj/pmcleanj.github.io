@@ -8,10 +8,12 @@ layout: default
   <p class="post-meta">
     <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%d-%m-%Y" }}</time>
 
-    {% if page.author %}
+<!-- 
+    {% if post.denizen %}
       &nbsp;/&nbsp;
-      <span>{{ page.author }}</span>
-    {% endif %}
+ -->
+      <span>{{ page.denizen }}</span>
+<!--     {% endif %} -->
   </p>
 
   <div class="post-content">
@@ -37,3 +39,9 @@ layout: default
   </div>
 
 </article>
+
+<small>
+    {% for category in page.categories %}
+    <a href="/categories/{{ category }}/">{{ category }}</a>
+    {% endfor %}
+</small>

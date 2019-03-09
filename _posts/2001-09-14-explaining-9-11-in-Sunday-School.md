@@ -1,7 +1,7 @@
 ---
-layout: post
 denizen: pamela
-featured_image: /images/Pamela.jpg
+bg: Pamela.jpg
+categories: iVillage
 ---
 
 ##I'm wondering how to handle it if the attacks come up in Sunday School...
